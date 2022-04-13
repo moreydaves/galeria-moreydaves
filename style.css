@@ -1,102 +1,60 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@media screen and (min-width: 750px){
+    #titulo{
+        font-size: 4.4vw;
+    }
+}
 :root{
-    --fntpad: Dubai, sans-serif;
-    --fnth1: Lateef, cursive;
-    --fntpad2: poppins, sans-serif;
-    --corh1: rgb(27, 44, 44);
+    --fnt1: Dubai, sans-serif;
+    --fnt2: poppins, sans-serif;
+    --fnt3: Lateef, cursive;
+    --fnt4: Poiret One, cursive;
+
+    --cor1: rgb(27, 44, 44);
 }
 *{
     margin: 0;
     padding: 0;
-    font-family: var(--fntpad);
+    font-family: var(--fnt1);
 }
-ul, li{
-    list-style: none;
-}
-
 a{
     text-decoration: none;
     color: white;
-    font-weight: bold;
-    font-family: var(--fntpad2);
 }
 header{
+    background-image: linear-gradient(to bottom, darkslategray, rgb(15, 26, 26));
     display: flex;
     justify-content: space-around;
-    background-color: darkslategray;
-    padding: 10px 0px;
     align-items: center;
-    flex-wrap: wrap;
+    padding: 30px;
+    padding: 10px;
 }
-header>a{
+header h1{
+    font-size: 6.9vw;
+    text-align: center;
+    line-height: 1;
     color: white;
-    font-family: var(--fntpad);
-    font-size: 2.2em;
-
-    letter-spacing: 5px;
-    text-shadow: 1px 1px 1px black;
-    font-weight: 100;
+    font-family: var(--fnt4);
 }
-.nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.menu{
-    display: flex;
-    justify-content: center;
-}
-.menu li{
-    margin-right: 25px;
-}
-.menu a{
-    border-left: 1px solid rgb(33, 56, 56);
-    border-right: 1px solid rgb(33, 56, 56);
-    padding: 3px 5px;
-}
-main{
+header nav{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 30px;
+    align-items: center;
+    margin: 20px;
 }
-main h1{
-    width: 100%;
-    text-align: left;
-    border-bottom: 1px solid var(--corh1);
-    font-family: var(--fntpad);
-    font-size: 2em;
+header nav a{
     font-weight: 100;
-    letter-spacing: 3px;
-    color: var(--corh1);
-}
-main img{
-    display: block;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-}
-main section{
-    padding: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.foto{
+    font-size: 2.8vh;
+    width: 120px;
     text-align: center;
-    margin: 23px;
+
 }
-.foto p{
-    font-weight: bold;
-    margin-top: 10px;
+header nav a:hover{
+    background-color: white;
+    color: var(--cor1);
+    border-radius: 20px;
+
 }
-/*
-
-border: 1px solid black
-
-
-
-*/
