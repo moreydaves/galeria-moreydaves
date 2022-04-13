@@ -13,7 +13,11 @@
     --fnt3: Lateef, cursive;
     --fnt4: Poiret One, cursive;
 
-    --cor1: rgb(27, 44, 44);
+    --cor1: darkslategray;
+    --cor2: rgb(15, 26, 26);
+}
+body{
+    margin: 10px;
 }
 *{
     margin: 0;
@@ -29,8 +33,8 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100px;
-    padding: 20px;
+    height: 70px;
+    padding: 5px;
 
 }
 header h1{
@@ -59,4 +63,71 @@ header nav a:hover{
     color: var(--cor1);
     border-radius: 20px;
 
+}
+main section h2{
+    font-family: var(--fnt4);
+    font-size: 5vh;
+    border-bottom: 1px solid var(--cor2);
+    margin: 20px 0px;
+}
+main section div.foto{
+    width: 100px;
+    height: 100px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+}
+main section div.foto:active{
+    position: absolute;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    max-width: 100vh;
+    max-height: 100vh;
+    top: 0px;
+    left: 0px;
+
+
+}
+#d1{
+    background-image: url(images/foto1.jpg);
+}
+#d2{
+    background-image: url(images/foto2.jpg);
+}
+#d3{
+    background-image: url(images/foto3.jpg);
+}
+#d4{
+    background-image: url(images/foto4.jpg);
+}
+#d5{
+    background-image: url(images/foto5.jpg);
+}
+#d6{
+    background-image: url(images/foto6.jpg);
+}
+#d7{
+    background-image: url(images/foto7.jpg);
+}
+#d8{
+    background-image: url(images/foto8.jpg);
+}
+#d9{
+    background-image: url(images/foto9.jpg);
+}
+#d10{
+    background-image: url(images/foto10.jpg);
+}
+#d11{
+    background-image: url(images/foto12.jpg);
+}
+#d12{
+    background-image: url(images/foto13.jpg);
+}
+footer{
+    background-color: var(--cor2);
+    color: white;
+    text-align: center;
 }
