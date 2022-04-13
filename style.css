@@ -29,8 +29,9 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px;
-    padding: 10px;
+    height: 100px;
+    padding: 20px;
+
 }
 header h1{
     font-size: 6.9vw;
@@ -38,6 +39,7 @@ header h1{
     line-height: 1;
     color: white;
     font-family: var(--fnt4);
+    padding-left: 20px;
 }
 header nav{
     display: flex;
@@ -47,7 +49,7 @@ header nav{
 }
 header nav a{
     font-weight: 100;
-    font-size: 2.8vh;
+    font-size: 2.2vh;
     width: 120px;
     text-align: center;
 
