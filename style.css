@@ -106,4 +106,5 @@ footer{
     background-color: var(--cor2);
     color: white;
     text-align: center;
+    text-decoration: underline;
 }
