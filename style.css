@@ -18,9 +18,8 @@
 }
 body{
     margin: 10px;
-    max-width: 900px;
     text-align: center;
-    margin: auto;
+    margin: 0;
 }
 *{
     margin: 0;
@@ -34,7 +33,7 @@ a{
 header{
     background-image: linear-gradient(to bottom, darkslategray, rgb(15, 26, 26));
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: 70px;
     padding: 5px;
@@ -67,11 +66,21 @@ header nav a:hover{
     border-radius: 20px;
 
 }
-main section h2{
+main{
+    max-width: 80vw;
+    margin: auto;
+}
+main h2{
     font-family: var(--fnt4);
     font-size: 5vh;
     border-bottom: 1px solid var(--cor2);
     margin: 20px 0px;
+}
+main section.fav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 main section div.foto{
     width: 100px;
@@ -79,62 +88,19 @@ main section div.foto{
     background-position: center center;
     background-size: cover;
     border-radius: 50%;
-    display: inline-block;
+    margin: 5px;
 }
-main section.fav{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.fav:nth-child(1){
-    display: block;
-}
-main section div.foto:active{ 
+main section div.foto:active{
     border-radius: 0px;
     width: 100%;
     height: 100vh;
-    margin: 0;
-    position: absolute;
-    left: 0;
+    position: fixed;
     top: 0;
+    margin: 0;
     background-size: contain;
+    background-repeat: no-repeat;
     background-position: center center;
-}
-#d1{
-    background-image: url(images/foto1.jpg);
-}
-#d2{
-    background-image: url(images/foto2.jpg);
-}
-#d3{
-    background-image: url(images/foto3.jpg);
-}
-#d4{
-    background-image: url(images/foto4.jpg);
-}
-#d5{
-    background-image: url(images/foto5.jpg);
-}
-#d6{
-    background-image: url(images/foto6.jpg);
-}
-#d7{
-    background-image: url(images/foto7.jpg);
-}
-#d8{
-    background-image: url(images/foto8.jpg);
-}
-#d9{
-    background-image: url(images/foto9.jpg);
-}
-#d10{
-    background-image: url(images/foto10.jpg);
-}
-#d11{
-    background-image: url(images/foto12.jpg);
-}
-#d12{
-    background-image: url(images/foto13.jpg);
+    background-color: rgba(0, 0, 0, 0.915);
 }
 footer{
     background-color: var(--cor2);
