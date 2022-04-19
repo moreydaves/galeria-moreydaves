@@ -10,6 +10,7 @@
 
     --cor1: rgb(47, 79, 79);
     --cor2: rgb(15, 26, 26);
+    --cor3: rgb(7, 11, 11);
 }
 @media screen and (min-width: 750px){
     main{
@@ -19,11 +20,17 @@
     header span.logo{
         font-size: 6.7rem;
     }
-    header nav a.menu{
-        font-size: 1.6rem;
+    nav a.menu{
+        font-size: 1.5rem;
     }
     main section h2.subtitulo{
-        font-size: 2.7rem;
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 470px){
+    main section h2.subtitulo{
+        font-size: 8rem;
     }
 }
 
@@ -54,29 +61,29 @@ header .logo{
     letter-spacing: 1.5px;
     font-size: 10rem;
     font-weight: bold;
-    margin: 20px 0px;
+    margin: 15px 0px;
     padding: 5px 25px;
     text-align: center;
     display: block;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    box-shadow: 0px 0px 20px black;
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px -7px white;
 }
 
-header nav{
-    min-width: 100vw;
+nav{
     display: flex;
     justify-content: space-evenly;
-    margin: 20px 0px;
+    margin: 0px 0px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
 }
 
-header nav a{
+nav a{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    border: 2px solid white;
+    border-bottom: 2px solid white;
     padding: 0px 10px;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 nav a:hover{
@@ -93,18 +100,51 @@ main section h2{
     color: var(--cor2);
     font-family: var(--fnt4);
     border-bottom: 2px solid var(--cor2);
-    font-size: 6rem;
+    font-size: 5.7rem;
     color: white;
     text-shadow: 0px 0px 5px black;
+    text-align: center;
 }
+section.fotos article{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 20px 50px;
+}
+
+section article div.pic{
+    width: 160px;
+    height: 160px;
+}
+
 footer{
-    font-size: 20px;
+    font-size: 15px;
     background-color: var(--cor2);
-    width: 100vw;
     padding: 5px;
     text-align: center;
     color: white;
-    position: absolute;
     margin-top: 50px;
-    bottom: 0;
 }
+
+/*
+main section div.foto{
+    width: 100px;
+    height: 100px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 5px;
+}
+main section div.foto:active{
+    border-radius: 0px;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.915);
+}
+*/
