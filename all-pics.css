@@ -9,8 +9,8 @@ main section.fotos article{
 }
 
 main section.fotos article div.pic{
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
 }
 
 main section.fotos article div.pic{
@@ -31,7 +31,9 @@ main section.fotos article div.pic:active{
     background-size: contain;
     background-color: rgba(0, 0, 0, 0.8);
     top: 0;
-
+}
+main section.fotos article div.pic:hover{
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
 }
 
 #p1{
@@ -144,4 +146,151 @@ main section.fotos article div.pic:active{
 }
 #p37{
     background-image: url(images/foto38.jpg);
+}
+#p38{
+    background-image: url(images_pq/foto39.jpeg);
+}
+#p39{
+    background-image: url(images_pq/foto40.jpg);
+}
+#p40{
+    background-image: url(images_pq/foto41.jpg);
+}
+#p41{
+    background-image: url(images_pq/foto42.jpg);
+}
+#p42{
+    background-image: url(images_pq/foto43.jpg);
+}
+#p43{
+    background-image: url(images_pq/foto44.jpg);
+}
+#p44{
+    background-image: url(images_pq/foto45.jpg);
+}
+#p45{
+    background-image: url(images_pq/foto46.jpg);
+}
+#p46{
+    background-image: url(images_pq/foto47.jpg);
+}
+#p47{
+    background-image: url(images_pq/foto48.jpg);
+}
+#p48{
+    background-image: url(images_pq/foto49.jpg);
+}
+#p49{
+    background-image: url(images_pq/foto50.jpg);
+}
+#p50{
+    background-image: url(images_pq/foto51.jpeg);
+}
+#p51{
+    background-image: url(images_pq/foto52.jpg);
+}
+#p52{
+    background-image: url(images_pq/foto53.jpg);
+}
+#p53{
+    background-image: url(images_pq/foto54.jpg);
+}
+#p54{
+    background-image: url(images_pq/foto55.jpg);
+}
+#p55{
+    background-image: url(images_pq/foto56.jpg);
+}
+#p56{
+    background-image: url(images_pq/foto57.jpg);
+}
+#p57{
+    background-image: url(images_pq/foto58.jpg);
+}
+#p58{
+    background-image: url(images_pq/foto59.jpg);
+}
+#p59{
+    background-image: url(images_pq/foto60.jpg);
+}
+#p60{
+    background-image: url(images_pq/foto61.jpg);
+}
+#p61{
+    background-image: url(images_pq/foto62.jpg);
+}
+#p62{
+    background-image: url(images_pq/foto63.jpg);
+}
+#p63{
+    background-image: url(images_pq/foto64.jpg);
+}
+#p64{
+    background-image: url(images_pq/foto65.jpg);
+}
+#p65{
+    background-image: url(images_pq/foto66.jpg);
+}
+#p66{
+    background-image: url(images_pq/foto67.jpg);
+}
+#p67{
+    background-image: url(images_pq/foto68.jpg);
+}
+#p68{
+    background-image: url(images_pq/foto69.jpg);
+}
+#p69{
+    background-image: url(images_pq/foto70.jpg);
+}
+#p70{
+    background-image: url(images_pq/foto71.jpg);
+}
+#p71{
+    background-image: url(images_pq/foto72.jpg);
+}
+#p72{
+    background-image: url(images_pq/foto73.jpg);
+}
+#p73{
+    background-image: url(images_pq/foto74.jpg);
+}
+#p74{
+    background-image: url(images_pq/foto75.jpg);
+}
+#p75{
+    background-image: url(images_pq/foto76.jpg);
+}
+#p76{
+    background-image: url(images_pq/foto77.jpg);
+}
+#p77{
+    background-image: url(images_pq/foto78.jpg);
+}
+#p78{
+    background-image: url(images_pq/foto79.jpg);
+}
+#p79{
+    background-image: url(images_pq/foto80.jpg);
+}
+#p80{
+    background-image: url(images_pq/foto81.jpg);
+}
+#p81{
+    background-image: url(images_pq/foto82.jpg);
+}
+#p82{
+    background-image: url(images_pq/foto83.jpg);
+}
+#p83{
+    background-image: url(images_pq/foto84.jpg);
+}
+#p84{
+    background-image: url(images_pq/foto85.jpg);
+}
+#p85{
+    background-image: url(images_pq/foto86.jpg);
+}
+#p86{
+    background-image: url(images_pq/foto87.jpg);
 }
