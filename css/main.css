@@ -37,40 +37,40 @@ main section.fotos article div.pic:hover{
 }
 
 #p1{
-    background-image: url(images/foto1.jpg);
+    background-image: url(../images/foto1.jpg);
 }
 #p2{
-    background-image: url(images/foto2.jpg);
+    background-image: url(../images/foto2.jpg);
 }
 #p3{
-    background-image: url(images/foto3.jpg);
+    background-image: url(../images/foto3.jpg);
 }
 #p4{
-    background-image: url(images/foto4.jpg);
+    background-image: url(../images/foto4.jpg);
 }
 #p5{
-    background-image: url(images/foto5.jpg);
+    background-image: url(../images/foto5.jpg);
 }
 #p6{
-    background-image: url(images/foto6.jpg);
+    background-image: url(../images/foto6.jpg);
 }
 #p7{
-    background-image: url(images/foto7.jpg);
+    background-image: url(../images/foto7.jpg);
 }
 #p8{
-    background-image: url(images/foto8.jpg);
+    background-image: url(../images/foto8.jpg);
 }
 #p9{
-    background-image: url(images/foto9.jpg);
+    background-image: url(../images/foto9.jpg);
 }
 #p10{
-    background-image: url(images/foto10.jpg);
+    background-image: url(../images/foto10.jpg);
 }
 #p11{
-    background-image: url(images/foto12.jpg);
+    background-image: url(../images/foto12.jpg);
 }
 #p12{
-    background-image: url(images/foto13.jpg);
+    background-image: url(../images/foto13.jpg);
 }
 
 main section.poemas article{
@@ -81,7 +81,7 @@ main section.poemas article{
 
 main section article div.text{
     color: white;
-    background-color: rgba(0, 0, 0, 0.388);
+    background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
     padding: 20px;
     border-radius: 10px;
@@ -111,7 +111,7 @@ main section article div.text p{
 
 
 main section.hist article div.text{
-    background-color: rgba(255, 255, 255, 0.109);
+    background-color: rgba(255, 255, 255, 0.2);
     color: black;
 }
 main section.hist article div.text h3{
