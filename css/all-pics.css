@@ -5,7 +5,7 @@ main section.fotos article{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding: 20px 50px;
+    padding: 10px 50px;
 }
 
 main section.fotos article div.pic{

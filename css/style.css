@@ -69,11 +69,17 @@ header .logo{
     box-shadow: 0px 0px 20px -7px white;
 }
 
+header .logo:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+
 nav{
     display: flex;
     justify-content: space-evenly;
     background-color: var(--cor2);
     border-top: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
 nav a{
@@ -99,6 +105,24 @@ main section{
     margin-bottom: 20px;
 }
 
+main section div#click-warning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 5px
+}
+
+main section div#click-warning img{
+    width: 22px;
+}
+
+main section div#click-warning p{
+    font-size: 13px;
+    font-weight: bold;
+    color: #0F1A1A;
+}
+
 main section h2{
     color: var(--cor2);
     font-family: var(--fnt4);
@@ -107,6 +131,11 @@ main section h2{
     color: white;
     text-shadow: 0px 0px 5px black;
     text-align: center;
+    margin-top: 10px;
+}
+
+main section:not(.fotos) h2{
+    margin-top: 40px;
 }
 
 footer{
